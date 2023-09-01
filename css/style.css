@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-color: #000000;
+    padding-top: 100px;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    height: 90px;
+    width: 100%;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2em;
+}
+
+.links li {
+    margin-right: 0.9em;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #00BF63;
+}
+
+.links {
+    float: right;
+}
+
+.homeIcon {
+    padding-left: 1em;
+}
+
+.titleLogin {
+    color: #ffffff;
+}
+
+.login {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 98vw;
+    height: 80vh;
+}
+
+.inputLogin input{
+    color: #5c5959;
+    border-color: blue;
+    background-color: #000000;
+    width: 300px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.buttonLogin input{
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #00BF63;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.errorLogin{
+    color: #a83232;
+}
+
+.menuOptions{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 98vw;
+    height: 80vh;
+    color: #ffffff;
+}
+
+.itemOptions a{
+    color: #5c5959;
+    text-decoration: none;
+}
+
+.itemOptions a:hover{
+    color: #00BF63;
+}
+
+.tableBus td{
+    padding: 10px;
+}
+
+.btnEditBus{
+    text-decoration: none;
+    color: #5c5959;
+}
+
+.btnEditBus:hover{
+    color: #00BF63;
+}
+
+.cadBus{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 98vw;
+    height: 80vh;
+    color: #ffffff;
+}
+
+.buttonRegister input{
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #00BF63;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.buttonDelete input{
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #bf0000;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.itemCadBus input{
+    color: #5c5959;
+    border-color: blue;
+    background-color: #000000;
+    width: 300px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.itemCadBusClock input{
+    color: #5c5959;
+    border-color: blue;
+    background-color: #000000;
+    width: 100px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 20px;
+}
